@@ -1,0 +1,197 @@
+{
+  "project": {
+    "name": "Vibe Coding AI Puppet",
+    "version": "1.0.0",
+    "owner": "Dawn (JKEATS)",
+    "description": "Personal creative AI studio for generating and managing web assets",
+    "createdDate": "2025-12-14"
+  },
+  "system": {
+    "hardware": {
+      "model": "HP ProBook 6560b",
+      "os": "Windows 10 Home",
+      "processor": "Intel Core i3-2310M @ 2.10GHz",
+      "ram": "8 GB",
+      "timezone": "Eastern Time (UTC-05:00)"
+    },
+    "storage": {
+      "internal": {
+        "drive": "C:\\",
+        "type": "SSD",
+        "capacity": "512 GB",
+        "usable": "476.94 GB"
+      },
+      "external": {
+        "drive": "E:\\",
+        "type": "SSD (Seagate One Touch)",
+        "capacity": "931.51 GB",
+        "usable": "931.51 GB"
+      }
+    }
+  },
+  "paths": {
+    "projectRoot": "C:\\projects\\vibe_coding_puppet",
+    "assetLibrary": "E:\\vibe_coding_puppet",
+    "generatedWebsites": "E:\\vibe_coding_puppet\\generated_websites",
+    "componentLibrary": "E:\\vibe_coding_puppet\\component_library",
+    "designAssets": "E:\\vibe_coding_puppet\\design_assets",
+    "designAssetsImages": "E:\\vibe_coding_puppet\\design_assets\\images",
+    "designAssetsIcons": "E:\\vibe_coding_puppet\\design_assets\\icons",
+    "designAssetsFonts": "E:\\vibe_coding_puppet\\design_assets\\fonts",
+    "designAssetsColorPalettes": "E:\\vibe_coding_puppet\\design_assets\\color_palettes",
+    "templates": "E:\\vibe_coding_puppet\\templates",
+    "backups": "E:\\vibe_coding_puppet\\backups",
+    "assetIndex": "E:\\vibe_coding_puppet\\asset_index.json",
+    "designSystem": "E:\\vibe_coding_puppet\\design_system.json"
+  },
+  "ui": {
+    "theme": "light",
+    "itemsPerPage": 20,
+    "defaultView": "grid",
+    "animationsEnabled": true,
+    "darkModeEnabled": false,
+    "sidebarCollapsible": true,
+    "sidebarDefaultOpen": true
+  },
+  "backup": {
+    "enabled": true,
+    "frequency": "weekly",
+    "dayOfWeek": "Sunday",
+    "timeOfDay": "02:00",
+    "retentionDays": 28,
+    "autoBackup": true,
+    "backupScript": "scripts/backup.ps1"
+  },
+  "cleanup": {
+    "enabled": true,
+    "frequency": "monthly",
+    "dayOfMonth": 1,
+    "timeOfDay": "03:00",
+    "clearNpmCache": true,
+    "clearPnpmStore": true,
+    "clearTempFiles": true,
+    "cleanupScript": "scripts/cleanup.ps1"
+  },
+  "performance": {
+    "lazyLoadImages": true,
+    "cacheMetadata": true,
+    "debounceSearch": 300,
+    "debounceFilter": 300,
+    "maxAssetsInMemory": 100,
+    "imageCompressionQuality": 0.8,
+    "enableCodeSplitting": true,
+    "enableMinification": true
+  },
+  "features": {
+    "assetBrowser": true,
+    "search": true,
+    "filter": true,
+    "codeEditor": true,
+    "designSystemManager": true,
+    "assetCreation": true,
+    "assetExport": true,
+    "darkMode": false,
+    "favorites": true,
+    "collections": true,
+    "versioning": true,
+    "analytics": true,
+    "aiGeneration": false
+  },
+  "assetTypes": [
+    "component",
+    "website",
+    "template",
+    "snippet"
+  ],
+  "assetCategories": [
+    "hero",
+    "navigation",
+    "footer",
+    "card",
+    "form",
+    "button",
+    "modal",
+    "landing-page",
+    "portfolio",
+    "e-commerce",
+    "blog",
+    "dashboard",
+    "other"
+  ],
+  "assetStyles": [
+    "minimal",
+    "bold",
+    "playful",
+    "elegant",
+    "modern",
+    "retro",
+    "corporate",
+    "creative"
+  ],
+  "complexity": [
+    "simple",
+    "medium",
+    "complex"
+  ],
+  "accessibility": [
+    "WCAG 2.1 A",
+    "WCAG 2.1 AA",
+    "WCAG 2.1 AAA"
+  ],
+  "searchSettings": {
+    "searchableFields": [
+      "name",
+      "description",
+      "tags",
+      "category",
+      "style"
+    ],
+    "caseSensitive": false,
+    "fuzzySearch": true,
+    "minSearchLength": 2
+  },
+  "filterSettings": {
+    "enableTypeFilter": true,
+    "enableCategoryFilter": true,
+    "enableStyleFilter": true,
+    "enableDateFilter": true,
+    "enableTagFilter": true,
+    "enableComplexityFilter": true,
+    "enableResponsiveFilter": true,
+    "enableAccessibilityFilter": true
+  },
+  "exportSettings": {
+    "enableSingleFileExport": true,
+    "enableZipExport": true,
+    "enableClipboardCopy": true,
+    "enableReactComponentExport": true,
+    "enableDesignSystemExport": true,
+    "zipCompressionLevel": 9
+  },
+  "logging": {
+    "enabled": true,
+    "level": "info",
+    "logFile": "E:\\vibe_coding_puppet\\backups\\app.log",
+    "maxLogSize": "10MB",
+    "retentionDays": 30
+  },
+  "development": {
+    "devServer": "http://localhost:5173",
+    "devServerPort": 5173,
+    "enableHotReload": true,
+    "enableSourceMaps": true,
+    "enableDevTools": true
+  },
+  "production": {
+    "buildOutput": "dist",
+    "enableMinification": true,
+    "enableCodeSplitting": true,
+    "enableCaching": true,
+    "cacheDuration": 3600
+  },
+  "metadata": {
+    "lastUpdated": "2025-12-14T10:00:00Z",
+    "createdBy": "Manus (AI Agent)",
+    "status": "active"
+  }
+}
